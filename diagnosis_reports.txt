@@ -1,0 +1,29 @@
+========================================
+PATIENT: Ahmed Ali (ID:1001) AGE:35
+DATE   : 2026-06-01
+SYMPTOMS: high_fever, severe_headache, pain_behind_eyes, joint_pain, muscle_pain, skin_rash, nausea
+
+TOP DIAGNOSIS PREDICTIONS:
+-----------------------------------------
+1. Dengue Fever [Infectious/Vector-Borne] - Prob: 100% | Severity: 7/10
+   Treatment: Supportive care, fluids, paracetamol, avoid NSAIDs, platelet monitoring.
+2. Meningitis [Neurological/Infectious] - Prob: 98.2014% | Severity: 9/10
+   Treatment: IV antibiotics/antivirals, corticosteroids, intensive care monitoring.
+3. Hepatitis B [Hepatic/Infectious] - Prob: 62.2459% | Severity: 7/10
+   Treatment: Antiviral drugs (tenofovir, entecavir), liver monitoring, vaccination.
+4. Malaria [Infectious/Parasitic] - Prob: 54.9834% | Severity: 7/10
+   Treatment: Chloroquine/artemisinin-based combination therapy, IV quinine for severe cases.
+5. Pneumonia [Respiratory] - Prob: 37.7541% | Severity: 7/10
+   Treatment: Antibiotics (bacterial), antivirals (viral), oxygen therapy, hospitalization.
+6. Influenza [Respiratory] - Prob: 26.8941% | Severity: 5/10
+   Treatment: Antivirals (oseltamivir), rest, hydration, fever reducers.
+7. Appendicitis [Surgical/Gastrointestinal] - Prob: 18.2426% | Severity: 8/10
+   Treatment: Emergency appendectomy (laparoscopic/open), IV antibiotics pre-op.
+8. Rheumatoid Arthritis [Autoimmune/Musculoskeletal] - Prob: 18.2426% | Severity: 6/10
+   Treatment: DMARDs (methotrexate), biologics (TNF inhibitors), NSAIDs, physical therapy.
+9. Peptic Ulcer Disease [Gastrointestinal] - Prob: 18.2426% | Severity: 5/10
+   Treatment: PPIs, H. pylori eradication (triple therapy), avoid NSAIDs/alcohol.
+10. Migraine [Neurological/Chronic] - Prob: 18.2426% | Severity: 5/10
+   Treatment: Triptans (sumatriptan), NSAIDs, ergotamines, preventive beta-blockers.
+========================================
+

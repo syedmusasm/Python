@@ -1,0 +1,10 @@
+=========================================
+       USER DIAGNOSTIC REPORT LOG        
+=========================================
+Inputs registered: 0 0 1 0 0 
+
+Rank 1: Stroke | Probability Matrix Score: 0.634136
+Rank 2: Schizophrenia | Probability Matrix Score: 0.601088
+Rank 3: Myocardial Infarction | Probability Matrix Score: 0.599888
+Rank 4: HIV/AIDS | Probability Matrix Score: 0.599888
+Rank 5: Asthma Attack | Probability Matrix Score: 0.591459
