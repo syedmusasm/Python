@@ -9,7 +9,7 @@ sum = 0
 Fq = input("Do you want to play KBC enter (yes/no): ")
 
 if(Fq == "yes"):
-    print("Wlecome to KBC")
+    print("Welcome to KBC")
 
     for i in range(len(QuestionList)):
        print(QuestionList[i])       
