@@ -27,9 +27,13 @@
 # print(x)
 
 
-a = input("Enter quit: ")
-if(a != "quit"):
-    raise ValueError("Enter only quit")
+# a = input("Enter quit: ")
+# if(a != "quit"):
+#     raise ValueError("Enter only quit")
+
+x = "Pizza"
+print(x.replace("z", 's'))
+
 
 
 
