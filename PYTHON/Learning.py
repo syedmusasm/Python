@@ -31,9 +31,26 @@
 # if(a != "quit"):
 #     raise ValueError("Enter only quit")
 
-x = "Pizza"
-print(x.replace("z", 's'))
+# x = "Pizza"
+# print(x.replace("z", 's'))
 
+# a = 2
+# b = 330
+# print("A") if a > b else print("B")
+
+# a = 3304
+# b = 3303
+# print("A") if a > b else print("=") if a == b else print("B")
+
+# c = 9 if a > b else 0
+# print(c)
+
+marks = [1,2,3,4,5,6]
+
+for index,mark in enumerate(marks):
+    print(mark)
+    if(index == 5):
+        print("SM, Awesome")
 
 
 
