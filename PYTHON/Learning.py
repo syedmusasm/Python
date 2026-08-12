@@ -45,12 +45,46 @@
 # c = 9 if a > b else 0
 # print(c)
 
-marks = [1,2,3,4,5,6]
+# marks = [1,2,3,4,5,6]
 
-for index,mark in enumerate(marks):
-    print(mark)
-    if(index == 5):
-        print("SM, Awesome")
+# for index,mark in enumerate(marks):
+#     print(mark)
+#     if(index == 5):
+#         print("SM, Awesome")
+# import Math_Tables
+
+# Math_Tables.Tables()
+
+# local vs Global Variable
+
+# x = 4
+# print(x)
+
+# def n():
+#     x = 5
+#     print(x)
+
+# print(f"The Local x is {x}")
+# print(f"The Global x is {x}")
+
+# File Handling
+
+# f = open("PYTHON/Musa_Intro.txt", 'r')
+# print(f.read())
+# f.close()
+
+# f = open("PYTHON/Musa_Intro.txt", 'w')
+# f.write("Hello Firends!")
+# f.close()
+
+# Directly close the File
+
+with open("PYTHON/Musa_Intro.txt", "a") as f:
+     f.write("\n Hello Guys!")
+     f.write("My name is Muhammad Musa SM")
+
+
+
 
 
 
