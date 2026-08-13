@@ -79,9 +79,43 @@
 
 # Directly close the File
 
-with open("PYTHON/Musa_Intro.txt", "a") as f:
-     f.write("\n Hello Guys!")
-     f.write("My name is Muhammad Musa SM")
+# with open("PYTHON/Musa_Intro.txt", "a") as f:
+#      f.write("\n Hello Guys!")
+#      f.write("My name is Muhammad Musa SM")
+
+# f = open("PYTHON/Musa_Intro.txt", 'r')
+# i = 0
+# while True:
+#      i = i +1 
+#      line = f.readline()
+#      if line == "":
+#           break
+#      m1 = int(line.split(",")[0])
+#      m2 = int(line.split(",")[1])
+#      m3 = int(line.split(",")[2])
+
+#      print(f"Student{i} Math marks: {m1}")
+#      print(f"Student{i} English marks: {m2}")  
+#      print(f"Student{i} Science marks: {m3}\n")
+
+# f = open("PYTHON/Musa_Intro.txt", 'w')
+# line = ["Syed\n", 'Musa\n', 'SM\n']
+# f.writelines(line)
+# f.close()
+
+# seek & tell
+
+# with open("PYTHON/Musa_Intro.txt", 'r') as f:
+#      f.seek(8)
+#      print(f.tell())
+#      print(f.read(3))
+
+with open("PYTHON/Musa_Intro.txt", 'w') as f:
+     f.write("Hey! Musa SM")
+     f.truncate(9)
+     
+     
+
 
 
 
