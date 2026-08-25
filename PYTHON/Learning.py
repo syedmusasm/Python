@@ -110,16 +110,80 @@
 #      print(f.tell())
 #      print(f.read(3))
 
-with open("PYTHON/Musa_Intro.txt", 'w') as f:
-     f.write("Hey! Musa SM")
-     f.truncate(9)
-     
-     
+# with open("PYTHON/Musa_Intro.txt", 'w') as f:
+#      f.write("Hey! Musa SM")
+#      f.truncate(9)
+
+# Map, filter & reduce
+
+# def cube(x):
+#      return x*x*x
+
+# l = [1,2,3,4,5]
+# newlist = list(map(cube, l))
+# print(newlist)
 
 
+# def filter_(x):
+#      return x > 4
+
+# l = [1,2,3,4,5]
+# newlist = list(filter(filter_, l))
+# print(newlist)    
+
+# from functools import reduce
+
+# def sum(x, y):
+#      return x + y
+
+# l = [1,2,3,4,5]
+# newlist = reduce(sum, l)
+# print(newlist)   
+
+# OOP in Python
+
+# class person:
+#     name = "Muhmmmad Musa"
+#     nickname = "MM"
+#     def info(self):
+#         print(f"{self.name} every body knowns as {self.nickname}")
 
 
+# n = person()
+# n.name = "Syed Musa"
+# n.nickname = "SM"
+# n.info()
 
+# Constructor
 
+# class person():
+#     def __init__(self, name , nickname):
+#         print("Hello SM")
+#         self.name  = name
+#         self.nickname = nickname
+#     def info(self):
+#         print(f"{self.name} the {self.nickname}")
+# n = person("Syed Musa", "SM")        
+# n.info()
 
+# Getters & Setters
 
+class myclass():
+    def __init__(self, value):
+        self.value = value
+
+    def info(self):
+        print(f"Value is {self.value}")
+
+    @property
+    def getValue(self):
+        return 2 * self.value
+
+    @getValue.setter
+    def getValue(self, newValue):
+        self.value = newValue
+
+obj = myclass(8)
+obj.info()
+obj.getValue = 9
+obj.info()                 
